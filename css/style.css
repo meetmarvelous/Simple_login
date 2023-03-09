@@ -1,0 +1,76 @@
+* {font-family:sans-serif;
+	box-sizing:border-box;}
+
+.container {
+	background-color:  #e6e6e6;
+	padding: 70px 0px 70px 0px;
+	margin: 0;
+}
+
+.main { width: 400px;
+		height:650px; 
+		margin:auto;
+		border-radius:15px;
+		background-color: white;
+		padding:50px 40px 30px 40px;
+		}
+
+.login {width: 250px;
+		margin: auto;}
+
+h2 {font-weight: 800; 
+
+}
+
+.logo {font-size: 35px;
+		font-weight: 700; 
+		background-color:  #333333; 
+		color: white; 
+		font-family:sans-serif;
+		padding: 5px 9px;
+		border-radius: 5px;}
+
+form {font-size: 16px;}		
+
+input[type=text] , input[type=password] {
+	width: 100%;
+	margin: 0px 0px 40px 0px;
+	border: none;
+	border-bottom: 2px solid black;
+	padding: 5px 0px;}
+
+input[type=text]:focus , input[type=password]:focus {}
+
+input[type=button] {
+	width: 100%;
+	background: #4CAF50;
+	background: linear-gradient(90deg, #00ffff, #bf00ff);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-top: 30px;
+	border:0;
+	cursor: pointer; }
+
+input[type=button]:hover {
+	background: linear-gradient(270deg, #00ffff, #bf00ff);
+	transition: 0.5s;}
+input[type=button]:active {
+	background-color: green;
+	border:0px;}
+
+
+div.last {width:100%;
+		margin-top: 120px;
+		font-size:15px; 
+		text-align: center;
+}
+
+.centre {
+	text-align: center;
+	padding:0px 0px 30px;
+		}
+a {text-decoration: none;
+	color: black;}
+
